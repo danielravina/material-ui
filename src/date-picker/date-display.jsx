@@ -84,6 +84,7 @@ const DateDisplay = React.createClass({
         color: theme.textColor,
         height: 60,
         padding: 20,
+        boxSizing: 'content-box'
       },
 
       monthDay: {
